@@ -1,9 +1,7 @@
 self.window = self;
 
-importScripts(
-  'https://cdn.jsdelivr.net/gh/jaredly/reason-react@more-docs/docs/bucklescript.js'
-);
-importScripts('https://reason.surge.sh/bucklescript-deps.js');
+importScripts('http://localhost:8080/bucklescript.js');
+// importScripts('https://reason.surge.sh/bucklescript-deps.js');
 
 self.postMessage('ready');
 
